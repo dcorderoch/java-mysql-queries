@@ -1,0 +1,9 @@
+CREATE SCHEMA `odyssey` DEFAULT CHARACTER SET utf8;
+
+USE `odyssey`;
+CREATE TABLE IF NOT EXISTS `odyssey`.`tbl_ex`
+(
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(45) NOT NULL
+)
+ENGINE=InnoDB;
