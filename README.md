@@ -1,6 +1,6 @@
 # java-mysql-queries
 
-this repository contains a small demonstration of MySQL queries from java code
+this repository contains a small demonstration of MySQL (& MariaDB) queries from java code
 
 the mysql-connector-java-5.1.37.jar file is included in the lib directory
 and needs to be included to the classpath when compiling/running the code
@@ -12,5 +12,5 @@ and should be executed in the following order:
 * **create-db-user.sql**
 
 in MySQL Workbench or the MySQL Command Line Interface, additionally the
-**query-database.sql** file can be executed to see an example query and the
+**query-database.sql** file contains example queries and the
 **delete-database.sql** file can be used to delete the database.
